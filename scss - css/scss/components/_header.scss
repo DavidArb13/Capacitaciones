@@ -1,0 +1,23 @@
+.miAppHeader{
+  &-container{
+    @include flexbox(flex, space-between, center);
+    padding: 20px;
+    background-color:  $miApp-black;
+    box-shadow:  0 3px 6px $miApp-gray;
+  }
+  &-brandImg{
+    @include sizes (150px, auto);
+  }
+  &-exit{
+    @include sizes (100px, auto);
+    @include flexbox (flex, space-between, center);
+  }
+  &-icon{
+    color: $miApp-white;
+    font-size: 30px;
+  }
+  &-avatar{
+    border: 2px solid $miApp-white;
+    border-radius: 50%;
+  }
+}

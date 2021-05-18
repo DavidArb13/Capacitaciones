@@ -1,0 +1,36 @@
+.miAppCards {
+  &-container {
+    @include sizes(80%, auto);
+    @include flexbox(flex, inherit, inherit);
+    flex-wrap: wrap;
+    margin: 30px auto;
+    padding: 10px;
+  }
+  &-card {
+    @include sizes(308px, auto); 
+    padding: 15px;
+    margin: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px $miApp-gray;
+    background-color: $miApp-white;
+    &--promotion {
+      background-color: $miApp-gray;
+      box-shadow: 0 0 20px $miApp-black;
+    }
+  }
+  &-img {
+    @include sizes(100%, auto);
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+  &-name {
+    margin-bottom: 5px;
+    font-size: 30px;
+  }
+  &-price {
+    margin-bottom: 5px;
+    &--promotion {
+      color: $miApp-white;
+    }
+  }
+}

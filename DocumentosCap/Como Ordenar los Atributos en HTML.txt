@@ -1,0 +1,8 @@
+Orden de Atributos en HTML Buenas Practicas
+
+1- class //mas repetido y reutilizable en el codigo
+2- id, name //Especifico mas orden
+3- data-*
+4- src, for, type, href, value
+5- title, alt 
+6- role, aria-*
