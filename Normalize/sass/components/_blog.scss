@@ -1,0 +1,63 @@
+.myBlog {
+  &-sectionContainer {
+    width: 100%;
+    display: flex;
+    padding-top: 50px;
+  }
+  &-aside {
+    width: 500px;
+    height: 220px;
+    padding: 15px;
+    margin-left: 200px;
+    background-color: $myBlog-gable-green;
+    color: $myBlog-white;
+    border-radius: 5px;
+    position: sticky;
+    top: 0;
+  }
+  &-asideTitle {
+    font-size: 22px;
+  }
+  &-asideNav {
+    display: flex;
+    flex-direction: column;
+  }
+  &-asideLink {
+    margin: 5px 0;
+    font-size: 20px;
+    text-decoration: none;
+    color: $myBlog-silver;
+  }
+  &-content {
+    padding: 0 50px;
+  }
+  &-post {
+    width: 50%;
+    position: relative;
+    padding: 10px 20px;
+    margin-bottom: 50px;
+    box-shadow: 0 0 7px $myBlog-silver;
+    border-radius: 5px;
+    &::before {
+      content: "";
+      display: block;
+      position: absolute;
+      left: -40px;
+      top: 5px;
+      border-top: 20px solid transparent;
+      border-right: 20px solid $myBlog-silver;
+      border-left: 20px solid transparent;
+      border-bottom: 20px solid transparent;
+    }
+  }
+  &-postDate {
+    color: $myBlog-silver;
+    font-size: 14px;
+  }
+  &-postDescription {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
+
+//sass sass/main.scss css/main.css

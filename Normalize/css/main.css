@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.myBlog-navbar {
+  width: 100%;
+  height: 100%;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c2c2c2;
+}
+.myBlog-link {
+  width: 100px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
+}
+.myBlog-link:hover {
+  background-color: #1d2f3d;
+  color: #c2c2c2;
+  transition: 0.5s ease-in-out;
+}
+.myBlog-imgHeader {
+  width: 100%;
+  height: auto;
+}
+
+.myBlog-img {
+  width: 100%;
+  height: 1300px;
+}
+
+.myBlog-sectionContainer {
+  width: 100%;
+  display: flex;
+  padding-top: 50px;
+}
+.myBlog-aside {
+  width: 500px;
+  height: 220px;
+  padding: 15px;
+  margin-left: 200px;
+  background-color: #1d2f3d;
+  color: #ffffff;
+  border-radius: 5px;
+  position: sticky;
+  top: 0;
+}
+.myBlog-asideTitle {
+  font-size: 22px;
+}
+.myBlog-asideNav {
+  display: flex;
+  flex-direction: column;
+}
+.myBlog-asideLink {
+  margin: 5px 0;
+  font-size: 20px;
+  text-decoration: none;
+  color: #c2c2c2;
+}
+.myBlog-content {
+  padding: 0 50px;
+}
+.myBlog-post {
+  width: 50%;
+  position: relative;
+  padding: 10px 20px;
+  margin-bottom: 50px;
+  box-shadow: 0 0 7px #c2c2c2;
+  border-radius: 5px;
+}
+.myBlog-post::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: -40px;
+  top: 5px;
+  border-top: 20px solid transparent;
+  border-right: 20px solid #c2c2c2;
+  border-left: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+.myBlog-postDate {
+  color: #c2c2c2;
+  font-size: 14px;
+}
+.myBlog-postDescription {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+/*# sourceMappingURL=main.css.map */

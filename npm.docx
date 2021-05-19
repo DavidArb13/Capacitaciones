@@ -1,0 +1,17 @@
+npm 
+sistema de gestion de paquetes por defecto para Node.JS(Entorno de ejecucion para JSON)
+
+listar dependencias instaladas de
+npm list -depth 0
+
+package.json
+npm init -y  (ejecute y cree con los valores por defecto)
+
+eliminar el paquete  (rm -g global)
+npm rm dependencia 
+
+actualiza todas las dependencias del proyecto
+npm update
+
+npm ls 
+listar paquetes en el equipo

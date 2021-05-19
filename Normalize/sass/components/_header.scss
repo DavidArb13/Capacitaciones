@@ -1,0 +1,31 @@
+.myBlog {
+  &-navbar {
+    width: 100%;
+    height: 100%;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $myBlog-silver;
+  }
+  &-link {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: $myBlog-black;
+    font-size: 20px;
+    &:hover {
+      background-color: $myBlog-gable-green;
+      color: $myBlog-silver;
+      transition: 0.5s ease-in-out;
+    }
+  }
+  &-imgHeader {
+    width: 100%;
+    height: auto;
+  }
+}
