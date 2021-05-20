@@ -1,0 +1,25 @@
+ingreso correo gmail y apss de google
+david.arboleda@models1a.com  
+onegroup
+david.arboleda@onegroupitservices.com
+
+Password
+DavidA2021*
+
+git hub
+DavidOneGroup
+DavidA2021*
+
+varialbes de entorno
+tienda
+VUE_APP_API_HOST=https://osd.omgworldwidegroup.com/api/v1/
+
+models
+VUE_APP_API_HOST=https://new-site.omgworldwidegroup.com:444/api/v1/
+
+RC Instancia MongoDB
+mongodb://54.86.103.69:27017/?readPreference=primary&appname=MongoDB%20Compass&ssl=false
+
+PDN Instancia MongoDB
+mongodb://54.167.221.219:27017/?readPreference=primary&appname=MongoDB%20Compass&ssl=false
+
