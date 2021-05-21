@@ -1,4 +1,4 @@
-# Capacitaciones
+# Capacitaciones / Ejercicios
 
 Ejercicios Css 
 
